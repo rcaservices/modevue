@@ -1,18 +1,27 @@
 <template>
   <div id="app">
-    <h1>Welcome to My Vue App</h1>
-    <!-- You can include other components or content here -->
+    <header>
+      <!-- Common header content -->
+    </header>
+    
+    <IndexPage />
+    
+    <footer>
+      <!-- Common footer content -->
+    </footer>
   </div>
 </template>
 
 <script>
+import IndexPage from './pages/index.vue';
+
 export default {
-  name: 'App',
-  // You can include data, methods, computed properties, etc. here
+  components: {
+    IndexPage
+  }
 }
 </script>
 
 <style scoped>
 /* Add your styles here */
 </style>
-
