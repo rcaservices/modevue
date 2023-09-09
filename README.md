@@ -15,10 +15,11 @@ You will need a Windows, Mac, or Linux computer with access to the command-line 
 
 Using the terminal, navigate to the folder containing the unzipped theme and run the `npm install` command. This will install all of the required packages and prepare your project for local development and production deployment. Once complete, type `npm run dev` and press the <kbd>enter</kbd> key. Vue CLI will then compile the project and serve a local server located at http://localhost:8080.
 
-```bash
+```bash  (do this in the integrated terminal)
 # install dependencies
 $ npm install
-
+$ npm audit fix --force  # run if there are any vulnerabilities
+$ 
 # serve with hot reload at localhost:3000
 $ npm run dev
 
