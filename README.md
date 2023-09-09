@@ -19,7 +19,9 @@ Using the terminal, navigate to the folder containing the unzipped theme and run
 # install dependencies
 $ npm install
 $ npm audit fix --force  # run if there are any vulnerabilities
-$ 
+$ npx nuxi@latest init starter-project
+$ cd starter-project/
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
