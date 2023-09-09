@@ -19,6 +19,12 @@ Using the terminal, navigate to the folder containing the unzipped theme and run
 # install dependencies
 $ npm install
 $ npm audit fix --force  # run if there are any vulnerabilities
+$  # to install Vuetify 
+$ npm create vuetify
+$ cd vuetify-project/
+
+#  OR install nuxi
+
 $ npx nuxi@latest init starter-project
 $ cd starter-project/
 
