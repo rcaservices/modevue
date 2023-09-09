@@ -15,30 +15,16 @@ You will need a Windows, Mac, or Linux computer with access to the command-line 
 
 Using the terminal, navigate to the folder containing the unzipped theme and run the `npm install` command. This will install all of the required packages and prepare your project for local development and production deployment. Once complete, type `npm run dev` and press the <kbd>enter</kbd> key. Vue CLI will then compile the project and serve a local server located at http://localhost:8080.
 
-```bash  (do this in the integrated terminal)
+```bash   Use the integrated terminal
 # install dependencies
 $ npm install
-$ npm audit fix --force  # run if there are any vulnerabilities
-$  # we need to add nuxt to this existing project
-$ npm install nuxt@3
-#  When you run npm install nuxt@3, you're installing Nuxt locally to your project, and its binaries get stored in ./node_modules/.bin/.
-#  The npx command is a package runner tool that comes with npm. It can run commands from local node_modules/.bin or from a central cache, reducing the need for global installations.
-#  To run the local version of Nuxt, you can use:
-$ npx nuxt
-#  to install the command globally run this command
-$ npm install -g nuxt
 
-#  I want to use a local copy of the nuxt so I will install and run it locally
-$ npx nuxt dev
-
-$  # to install Vuetify 
+# insall vueify
 $ npm create vuetify
-$ cd vuetify-project/
 
-#  OR install nuxi
-
-$ npx nuxi@latest init starter-project
-$ cd starter-project/
+# install nuxi
+$ npx nuxi@latest init starter  #  "starter" is the name of the new project.
+$ cd starter
 
 # serve with hot reload at localhost:3000
 $ npm run dev
